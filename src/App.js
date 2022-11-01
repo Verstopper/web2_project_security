@@ -1,7 +1,7 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import LoginButton from "./components/LoginButton";
 import LogoutButton from "./components/LogoutButton";
-import Danger from "./components/Danger";
+import XssElement from "./components/XssElement";
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           {isAuthenticated && <h1>Welcome {user?.name}</h1>}
           <LoginButton />
           <LogoutButton />
-          <Danger/>
+          <XssElement/>
         </>
       )}
     </>
