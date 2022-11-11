@@ -1,7 +1,7 @@
 ### NOTE This app wont work locally because auth0 is not set for it
 ### NOTE If app freezes please disable dangerous mode and refresh page, it has to do with something with Render.com
 
-### Link to live app [dangerzone](https://dangerzonexss.onrender.com/)
+### Link to live app [dangerzonexss](https://dangerzonexss.onrender.com/) ==> https://dangerzonexss.onrender.com/
 
 ### Credentials for testing
 
