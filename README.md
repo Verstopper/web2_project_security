@@ -21,10 +21,10 @@ entered text is displayed right under the text area (text change forces update i
 
 1. 
 ```html
-\<img src onerror="alert('XSS attack')"/>
+<img src onerror="alert('XSS attack')"/>
 ```
 
 2. 
 ```html
-\<img src onerror="alert(document.cookie)" />
+<img src onerror="alert(document.cookie)" />
 ```
