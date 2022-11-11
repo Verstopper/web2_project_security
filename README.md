@@ -19,12 +19,10 @@ strongAdminPassword123
 BTW, it is recommended to write malicious text inside textarea when in safe mode because
 entered text is displayed right under the text area (text change forces update in lower html element, in this case )
 
-1. 
-```html
+1. ```html
 <img src onerror="alert('XSS attack')"/>
 ```
 
-2. 
-```html
+2. ```html
 <img src onerror="alert(document.cookie)" />
 ```
