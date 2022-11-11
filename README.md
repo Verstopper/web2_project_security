@@ -17,7 +17,7 @@ strongAdminPassword123
 
 ### Some xss scripts for testing in dangerous mode:
 BTW, it is recommended to write malicious text inside textarea when in safe mode because
-entered text is displayed right under the text area (text change forces update in lower html element, in this case )
+entered text is displayed right under the text area (text change in textarea forces update in div elemenz under the textarea)
 
 1. 
 ```html
